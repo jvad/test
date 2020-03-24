@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pseudo Class Selector</title>
+	<style type="">
+		a:link, a:visited
+		{
+			text-decoration: none;
+			background-color: green;
+			border: 1px solid blue;
+			color: black; 
+			display: block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 1px;
+		}
+		a:hover, a:active
+		{
+			color: purple;
+			background-color: red;
+		}
+	 li {
+			list-style: none;
+		}
+		header li:nth-child(3) {
+			font-size: 24px;
+
+		}
+		section div {
+			width: 100px;
+			margin-left: 40px;
+			border: 1px solid green;
+			margin-bottom: 2px;
+		}
+
+		section div:nth-child(odd)
+		{
+			background-color: grey;
+		}
+		section div:nth-child(4):hover
+		{
+			background-color: red;
+			color: black;
+		}
+		section div:nth-child(4):active
+		{
+			background-color: blue;
+			color: pink;
+		}
+
+
+
+	</style>
+</head>
+<body>
+<header>
+	<ul>
+		<li>
+			<a href="/">Home</a>
+		</li>
+		<li>
+			<a href="https://www.coursera.org/" target="_blank">Coursera</a>
+		</li>
+		<li>
+			<a href="https://www.facebook.com/" target="_blank">Facebook</a>
+		</li>
+	</ul>
+</header>
+<section>
+	
+	<div> Div 1</div>
+	<div> Div 2</div>
+	<div> Div 3</div>
+	<div> Div 4</div>
+	<div> Div 5</div>
+	<div> Div 6</div>
+	<div> Div 7</div>
+	<div> Div 8</div>
+	<div> Div 9</div>
+	<div> Div 10</div>
+	<div> Div 11</div>
+	<div> Div 12</div>
+	<div> Div 13</div>
+</section>
+</body>
+</html>
