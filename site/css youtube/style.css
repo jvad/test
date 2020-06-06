@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+#mainNav {
+  background-color: #ccc;
+  color: black;
+}
+#mainNav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#jumboo h1 {
+  font-size: 35px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.5em;
+}
+#jumboo {
+  background-image: url(bg2.jpg);
+  background-position: center center;
+  min-height: 300px;
+  text-align: center;
+}
+#mainNav li {
+  display: inline;
+  padding: 5px 10px;
+}
+#mainNav a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+#mainNav li:hover {
+  background: #aaa;
+}
+#mainheader {
+  background: gray;
+  color: hotpink;
+}
+#main {
+  float: right;
+  width: 70%;
+  padding: 0 30px;
+}
+#sidebar {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  border-right: 1px solid black;
+}
+#mainFooter {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+@media (max-width: 600px) {
+  #main,
+  #sidebar {
+    width: 100%;
+    float: none;
+    border: none;
+  }
+  #mainNav {
+    position: sticky;
+    top: 0;
+  }
+}
+.clearFix {
+  clear: both;
+}
+.postionEx {
+  width: 400px;
+  height: 400px;
+  border: 1px dotted brown;
+  position: relative;
+}
+/* p {
+    border: 2px dotted rgb(39, 192, 212);
+    padding: 10px;
+    margin-top: 40px;
+} */

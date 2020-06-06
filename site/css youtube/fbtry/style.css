@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fbNav {
+  background-color: rgb(41, 72, 125);
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  flex: 1;
+  display: flex;
+  /* justify-content: center; */
+}
+.loginS {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 150px 150px;
+  row-gap: 10px;
+  column-gap: 20px;
+}
+.name h1 {
+  font-size: 2em;
+  color: white;
+  margin: 45px 0 0 200px;
+}
+#labelemail {
+  color: white;
+}
+#labelpassword {
+  color: white;
+}
+
+#inputpassword {
+}
+#inputemail {
+}

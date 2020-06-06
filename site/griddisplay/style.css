@@ -1,0 +1,11 @@
+header {
+  height: 15vh;
+  /* background-image: url(bg.jpg); */
+  /* background-position: ; */
+
+  background-color: rebeccapurple;
+}
+.logo-img img {
+  height: 100px;
+  width: 100px;
+}
